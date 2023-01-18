@@ -7,7 +7,6 @@ const app = express();
 const path = require("path");
 const ejsMate = require("ejs-mate");
 const mongoose = require("mongoose");
-mongoose.set("strictQuery", false);
 
 const methodOverride = require("method-override");
 const session = require("express-session");
